@@ -3,6 +3,8 @@
 A [Next.js](https://nextjs.org/) 13 template that contains/uses the following features and modules:
 <br/>
 一個 [Next.js](https://nextjs.org/) 13 的模板，包含/使用了以下功能與模組：
+<br/>
+[Next.js](https://nextjs.org/)13テンプレートには、次の機能とモジュールが含まれています：
 
 - package manager：pnpm
 - web framework：Next.js 13
@@ -11,7 +13,7 @@ A [Next.js](https://nextjs.org/) 13 template that contains/uses the following fe
   - Using：React
   - Using：Tailwind CSS
 - The ui library：[shadcn-ui](https://ui.shadcn.com/).
-- Themes management：[next-themes](https://www.npmjs.com/package/next-themes) is used.
+- Themes management：[next-themes](https://www.npmjs.com/package/next-themes)
 - Database orm using [prisma](https://www.prisma.io/)
 - Icons：[lucide-react](https://lucide.dev/guide/packages/lucide-react)
 

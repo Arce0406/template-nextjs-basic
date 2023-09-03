@@ -1,10 +1,19 @@
 # Next.js Template
 
-PNPM
-React + Typescript
-Tailwind CSS + shadcn-ui
+A [Next.js](https://nextjs.org/) 13 template that contains/uses the following features and modules:
+<br/>
+一個 [Next.js](https://nextjs.org/) 13 的模板，包含/使用了以下功能與模組：
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- package manager：pnpm
+- web framework：Next.js 13
+  - Using：app router、src folder structure
+  - Using：TypeScript
+  - Using：React
+  - Using：Tailwind CSS
+- The ui library：[shadcn-ui](https://ui.shadcn.com/).
+- Themes management：[next-themes](https://www.npmjs.com/package/next-themes) is used.
+- Database orm using [prisma](https://www.prisma.io/)
+- Icons：[lucide-react](https://lucide.dev/guide/packages/lucide-react)
 
 ## Build
 

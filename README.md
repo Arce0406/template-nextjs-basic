@@ -1,10 +1,10 @@
 # Next.js Template
 
-A [Next.js](https://nextjs.org/) 13 template that contains/uses the following features and modules:
-<br/>
 一個 [Next.js](https://nextjs.org/) 13 的模板，包含/使用了以下功能與模組：
 <br/>
 [Next.js](https://nextjs.org/)13テンプレートには、次の機能とモジュールが含まれています：
+<br/>
+A [Next.js](https://nextjs.org/) 13 template that contains/uses the following features and modules:
 
 - package manager：pnpm
 - web framework：Next.js 13

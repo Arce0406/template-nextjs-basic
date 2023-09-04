@@ -19,6 +19,23 @@ A [Next.js](https://nextjs.org/) 13 template that contains/uses the following fe
 - Authorize：[Next-Auth](https://next-auth.js.org/)
 - i18n：[next-intl](https://next-intl-docs.vercel.app/)
 
+## ENV
+
+Create a `.env` file in root folder
+
+```bash
+# prisma setting
+DATABASE_URL=""
+
+# next-auth setting
+NEXTAUTH_SECRET=""
+NEXTAUTH_URL="http://localhost:3000"
+
+# next-auth discord provider setting
+DISCORD_CLIENT_ID=""
+DISCORD_CLIENT_SECRET=""
+```
+
 ## Commands
 
 ### Create Next.js project

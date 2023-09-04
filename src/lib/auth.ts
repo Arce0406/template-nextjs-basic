@@ -16,7 +16,7 @@ export const authOptions: NextAuthOptions = {
         })
     ],
     "pages": {
-        "signIn": "/sign-in"
+        "signIn": "/en/sign-in"
     },
     callbacks: {
         // async signIn({ user, account, profile, email, credentials }) {

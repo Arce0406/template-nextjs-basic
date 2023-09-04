@@ -16,13 +16,20 @@ A [Next.js](https://nextjs.org/) 13 template that contains/uses the following fe
 - Themes management：[next-themes](https://www.npmjs.com/package/next-themes)
 - Database orm using [prisma](https://www.prisma.io/)
 - Icons：[lucide-react](https://lucide.dev/guide/packages/lucide-react)
+- Authorize：[Next-Auth](https://next-auth.js.org/)
+- i18n：[next-intl](https://next-intl-docs.vercel.app/)
 
-## Build
+## Commands
+
+### Create Next.js project
 
 ```bash
-# Create Next.js project
 npx create-next-app@latest
+```
 
+### Prisma
+
+```bash
 # Add prisma
 pnpm add prisma --save-dev
 npx prisma init --datasource-provider mongodb
@@ -35,7 +42,11 @@ npx prisma studio
 # Add prisma client
 pnpm add @prisma/client
 npx prisma generate
+```
 
+### Others
+
+```bash
 # next-themes
 pnpm add next-themes
 
@@ -45,9 +56,12 @@ pnpm dlx shadcn-ui@latest init
 # Lucide React
 pnpm install lucide-react
 
+# next-intl
+# https://next-intl-docs.vercel.app/docs/getting-started/app-router-server-components
+pnpm add next-intl@3.0.0-beta.15
 ```
 
-## Getting Started
+### Getting Started
 
 First, run the development server, then open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

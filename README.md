@@ -8,9 +8,9 @@ A [Next.js](https://nextjs.org/) 13 template that contains/uses the following fe
 
 - package manager：pnpm
 - web framework：Next.js 13
-  - Using：app router、src folder structure
+  - Using：App Router & src/ directory
+  - Using：ESLint
   - Using：TypeScript
-  - Using：React
   - Using：Tailwind CSS
 - The ui library：[shadcn-ui](https://ui.shadcn.com/).
 - Themes management：[next-themes](https://www.npmjs.com/package/next-themes)

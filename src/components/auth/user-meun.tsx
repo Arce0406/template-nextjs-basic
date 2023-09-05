@@ -1,4 +1,4 @@
-import { getCurrentUser } from "@/lib/sessions"
+"use client"
 import {
     Avatar,
     AvatarFallback,
@@ -16,18 +16,9 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { User2 } from "lucide-react"
+import { signOut } from "next-auth/react"
 
-export default async function UserNav() {
-    const user = await getCurrentUser();
-
-    if (!user) {
-        return <></>
-    }
-
-    return <UserNavContent username={user.name} email={user.email} avatar_image={user.image}></UserNavContent>
-}
-
-function UserNavContent({ username, email, avatar_image }: { username: string, email: string, avatar_image: string }) {
+export default function UserNavContent({ username, email, avatar_image }: { username: string, email: string, avatar_image: string }) {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -63,7 +54,7 @@ function UserNavContent({ username, email, avatar_image }: { username: string, e
                     <DropdownMenuItem>Projects</DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem>
+                <DropdownMenuItem onClick={() => { signOut() }}>
                     Log out
                     <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
                 </DropdownMenuItem>

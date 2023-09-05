@@ -1,13 +1,13 @@
 import Brand from "@/components/navbar/brand"
 import { cn } from "@/lib/utils"
-import UserNav from "@/components/auth/user-nav"
+import UserNav from "@/components/auth/user-toggle"
 import SiteLinks from "@/components/navbar/links"
 import { Search } from "@/components/navbar/search"
 import { Separator } from "@/components/ui/separator"
 import { ModeToggle } from "@/components/themes/theme-toggle"
 import { LanguageToggle } from "@/components/i18n/language-toggle"
 
-export default function Navbar({ className, ...props }: React.HTMLAttributes<HTMLElement>) {
+export default function MainNavbar({ className, ...props }: React.HTMLAttributes<HTMLElement>) {
     return (
         <div
             className={cn("border-b", className)}
